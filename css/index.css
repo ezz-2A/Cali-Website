@@ -367,7 +367,7 @@ h1{
 .all{
   position: relative;
   width: 50%;
-  overflow: hidden;
+  /* overflow: hidden; */
   transition: 1s;
   /* margin-left: 5%; */
   top: 300px;
@@ -375,7 +375,8 @@ h1{
   display: flex;
   /* height: 800px; */
   margin-bottom: 100px;
-  padding-bottom: 300px;
+  border: #ffffff solid 2px;
+  /* padding-bottom: 3px; */
 }
 
 
@@ -393,6 +394,7 @@ h1{
   cursor: pointer;
   border: none;
   background-color: #00000000;
+  border: #ffffff solid 2px;
 }
 
 
