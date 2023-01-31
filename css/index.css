@@ -638,6 +638,7 @@ h1{
   background-size: auto 100%;
   transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
   border: solid 3px white;
+  cursor: pointer;
 }
 
 .div-img:hover{
