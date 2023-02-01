@@ -1,15 +1,21 @@
 body{
     margin: 0;
     padding: 0;
-    height: 10000px;
+    /* height: 10000px; */
     background-color: black;
     
 }
-
+.h1{
+  z-index: 100000000;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  text-align: center;
+}
 
 #container {
   width: 100%;
-  height: 800px;
+  height: 100%;
   background-color: black;
   display: flex;
   align-items: center;
@@ -20,12 +26,49 @@ video {
   width: 100%;
   display: flex;
   align-items: center;
+  top: 0;
+  display: none;
 }
 
 .black{
   width: 100%;
   height: 100%;
-  background-color: black;
+  background-color: rgb(255, 247, 247);
   position: fixed;
+  background-color: black;
 
+}
+
+
+img{
+  z-index: 99;
+  margin: auto;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  transition: 1s;
+  cursor: pointer;
+  /* position: absolute; */
+  /* top: 100%; */
+}
+
+.im{
+  width: 100%;
+  height: 39rem;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  /* position: fixed; */
+  /* top: 20%; */
+  /* background-color: aqua; */
+}
+
+
+img:hover{
+  width: 50%;
+}
+
+  
+.activ{
+  width: 200%;
 }

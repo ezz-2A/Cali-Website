@@ -1,43 +1,36 @@
 
-var controller = new ScrollMagic.Controller(),
-    scene,
-    video = document.getElementsByTagName('video')[0],
-    videoDuration;
+var vid = document.getElementById("myVideo"); 
+function playVid() { 
+    vid.play(); 
+  } 
 
-// Run program on video load
-video.onloadeddata = function() {
-    
-    // Grab the target video duration
-    videoDuration = video.duration;
-    // console.log(video.duration);
 
-    // Tween the video from beginning to end
-    var videoTween = TweenMax.to(video, 1, {
-                    currentTime: videoDuration,
-                    ease: Quad.easeOut,
-                    overwrite:true,
-                    pause:true
-    });
 
-    // Build ScrollMagic Scene
-    var scene = new ScrollMagic.Scene({triggerElement: "#container", duration: 10000, offset: 400})
-    .setTween(videoTween) // Add tween to the scene
-    // .addIndicators({name: "video play"}) // Add indicators to the scrollbar							
-    .addTo(controller); // Add scene to the controller
-};
+$("img").click(function(){
+//    $(this).addClass("activ")
+
+   $(this).fadeOut();
+
+   const myTimeout = setTimeout(myGreeting, 1000);
+   function myGreeting() {
+    $("video").fadeIn();
+
+       playVid()
+   }
+});
 
 
 
 
 
-window.onscroll = function () {
-    if(window.scrollY > 9000) {
-        $("#container").fadeOut()
-        $(".black").fadeOut()
+let progress;
 
-    }
-    else{
-        $("#container").fadeIn()
-        $(".black").fadeIn()
-    }
+setInterval(function(){
+  progress = ( vid.currentTime / 10 * 100 ).toFixed(2)
+  // console.log(progress)
+  if(progress > 100){
+    $("#container").fadeOut();
+    $(".black").fadeOut();
+    // alert("gsldkfl")
 }
+});
