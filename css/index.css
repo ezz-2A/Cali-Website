@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
@@ -682,7 +685,96 @@ h1{
   width: 50%;
 }
 
+
+/* --------------------client---------------- */
+
+.client{
+  width: 100%;
+  min-height: 500px;
+  /* background-color: #292929; */
+  margin-top: 100px;
+  padding-top: 200px;
+}
+
+
+.wrapper{
+  display: flex;
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+.wrapper i{
+  top: 50%;
+  height: 44px;
+  width: 44px;
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+  text-align: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.9);
+}
+.wrapper i:hover{
+  background: #f2f2f2;
+}
+.wrapper i:first-child{
+  left: -22px;
+  display: none;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  font-size: 0px;
+  cursor: grab;
+  overflow: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+.carousel.dragging{
+  cursor: grabbing;
+  scroll-behavior: auto;
+}
+.carousel.dragging img{
+  pointer-events: none;
+}
+.carousel img{
+  /* height: 340px; */
+  object-fit: cover;
+  user-select: none;
+  margin-left: 14px;
+  width: calc(100% / 5);
+}
+.carousel img:first-child{
+  margin-left: 0px;
+}
+
+
+
+
 /* ---------------------media------------ */
+
+
+@media screen and (max-width: 900px) {
+  .carousel img{
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel img{
+    width: 100%;
+  }
+}
+
+
 @media only screen and (max-width: 1200px) {
   .counter{
     width: 250px;
@@ -783,19 +875,7 @@ h1{
   padding-bottom: 100px;
 }
 
-/* 
-.all-2{
-  position: relative;
-  width: 60%;
-  overflow: hidden;
-  transition: 1s;
-  left: 2%;
-  top: 50px;
-  display: flex;
-  height: 800px;
-  margin-bottom: 100px;
-  
-} */
+
 }
 
 
@@ -818,17 +898,5 @@ h1{
   }
   
   
-  /* .all-2{
-    position: relative;
-    width: 90%;
-    overflow: hidden;
-    transition: 1s;
-    left: 2%;
-    top: 50px;
-    margin-bottom: 100px;
-    margin: auto;
-    padding-bottom: 100px;
-    
-  } */
 }
 
