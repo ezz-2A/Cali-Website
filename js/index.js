@@ -223,3 +223,40 @@ carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+
+
+
+$("button").click(function(){
+        $("button").removeClass("btn-activ");
+
+        $(this).addClass("btn-activ");
+});
+
+
+$(".Egypt-btn").click(function(){
+        $(".Saudi").fadeOut(300);
+        $(".Jordan").fadeOut(300);
+
+        $(".Egypt").fadeIn(300);
+        
+});
+
+
+
+$(".Jordan-btn").click(function(){
+        $(".Saudi").fadeOut(300);
+        $(".Egypt").fadeOut(300);
+
+        $(".Jordan").fadeIn(300);
+        
+});
+
+
+
+$(".Saudi-btn").click(function(){
+        $(".Jordan").fadeOut(300);
+        $(".Egypt").fadeOut(300);
+
+        $(".Saudi").fadeIn(300);
+        
+});
