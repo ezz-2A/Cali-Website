@@ -3,8 +3,8 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  /* box-sizing: border-box; */
+  /* font-family: 'Poppins', sans-serif; */
 }
 body{
   display: flex;
@@ -162,7 +162,7 @@ nav{
   right: -22px;
 }
 .wrapper .carousel{
-  font-size: 0px;
+  /* font-size: 0px; */
   /* cursor: pointer; */
   overflow: hidden;
   white-space: nowrap;
