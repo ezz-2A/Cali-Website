@@ -51,10 +51,27 @@
                 </div>
               </div>
           </li>
-          <li class="img" style="z-index: 9999999999; color: white; ">
-            <div style=" overflow-wrap: break-word; font-size: 15px;  width: 100%; color: white; ">
-              <img src="images/AVS Product Logo/ar-text.png " alt="" style="width: 100%;">
-             
+          <li class="img" style="z-index: 9999999999; color: white; text-align: center;">
+            <div style=" overflow-wrap: break-word; font-size: 13px;  width: 100%; color: white; ">
+              <!-- <div style="width: 100px;  background-color: aqua; transform: translateY(100%); top: 0; "></div> -->
+
+              <img src="images/AVS Product Logo/AR-MR 2.png" alt="" style="width: 100px; ">
+
+              <div id="ar-mr-text" style="cursor: pointer;"  data-toggle="modal" data-target="#AR-MR">
+                <p>Users can access 3D virtual reality....</p>
+              </div>
+
+              <div class="modal fade boximg" id="ar-mr" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 9999; display: none;">
+                <div class="modal-dialog ">
+                <div style="display: flex; align-items: center; width: 100%; " tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div style="margin: auto; width: 50%;transform: translateY(200%); padding: 10px; -webkit-backdrop-filter: blur(5px);   backdrop-filter: blur(5px); background-color: rgba(0, 0, 0, 0.472);" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <!-- <h1 style="padding: 10px;">[[[[[[[[[[]]]]]]]]]]</h1> -->
+                    <p style="padding: 10px;">Users can access 3D virtual reality or <br> augmented reality environments and can work,<br> communicate with friends, conduct business,<br> and visit remote locations.</p>
+                    <!-- <p style="padding: 10px;">[[[[[[[[[[]]]]]]]]]]</p> -->
+                  </div>
+                </div>
+                </div>
+              </div>
              
             </div>
             <iframe width="100%" height="315" src="https://www.youtube.com/embed/1FGL0UEjc5M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>           
@@ -105,8 +122,10 @@
 
 
     <script src="jquery-3.6.1.min.js" defer></script>
+
     <!-- <script src="all.min.js" defer></script> -->
     <script src="script.js" defer></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
   </body>
 </html>

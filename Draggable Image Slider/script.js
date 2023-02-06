@@ -197,3 +197,16 @@ function cursor(e){
     mouseCursor2.style.left = e.pageX + 'px';
 };
 
+
+
+
+$("#ar-mr-text").click(function(){
+    $("#ar-mr").show();
+});
+
+
+
+
+$("#ar-mr").click(function(){
+    $("#ar-mr").hide();
+});
