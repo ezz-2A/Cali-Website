@@ -633,6 +633,16 @@ h1{
   margin-top: 100px;
 }
 
+.team-s{
+  width: 20%;
+  /* background-color: rgb(0, 127, 238); */
+  display: flex;
+  height: 20rem;
+  gap: 1rem;
+  margin: auto;
+  margin-top: 100px;
+}
+
 .div-img{
   flex: 1;
   border-radius: 1rem;
@@ -882,6 +892,12 @@ h1{
     height: 300px;
   } */
 
+  .team{
+    width: 80%;
+  }
+  .team-s{
+    width: 50%;
+  }
   
 .text{
   font-size: 50px;
@@ -897,7 +913,13 @@ h1{
     height: 200px;
   } */
 
-  
+  .team-s{
+    width: 50%;
+  }
+
+.team{
+  width: 98%;
+}
 .text{
   font-size: 40px;
   
