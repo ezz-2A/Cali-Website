@@ -7,7 +7,6 @@ function playVid() {
 
 
 $("img").click(function(){
-//    $(this).addClass("activ")
 
    $(this).fadeOut();
 
@@ -27,11 +26,9 @@ let progress;
 
 setInterval(function(){
   progress = ( vid.currentTime / 10 * 100 ).toFixed(2)
-  // console.log(progress)
   if(progress > 100){
     $("#container").fadeOut();
     $(".black").fadeOut();
-    // alert("gsldkfl")
 }
 });
 

@@ -9,9 +9,6 @@ let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, position
 const showHideIcons = () => {
     let scrollWidth = carousel.scrollWidth - carousel.clientWidth;
     arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
-    // arrowIcons[1].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
-    //  carousel.scrollLeft == scrollWidth ? alert("ihh");
-    //  alert("ihh");
     if(carousel.scrollLeft == scrollWidth ){
        carousel.scrollLeft = 0;
     }
@@ -87,14 +84,7 @@ carousel.addEventListener("touchend", dragStop);
 
 
 
-// $(document).ready(function(){
-//     $(".carousel").click(function(){
-//       $(".image").addClass("h-img")
-//       $(".container").addClass("h-container")
-//       alert("dfvjps")
 
-//     });
-//   });
 
 
 
@@ -117,10 +107,6 @@ $(document).ready(function(){
   });
 
 
-//   $(".left").hover(function(){
-//     $(".Cursor_left").addClass("hover_Cursor")
-//     // alert("sdfvjoi")
-// });
 $(document).ready(function(){
     $(".left").mouseenter(function(){
         $(".Cursor_left").addClass("hover_Cursor");
@@ -130,14 +116,12 @@ $(document).ready(function(){
   $(document).ready(function(){
     $(".right").mouseenter(function(){
         $(".Cursor_right").addClass("hover_Cursor");
-        // alert("sdvk")
     });
   });
 
   $(document).ready(function(){
     $(".right").mouseleave(function(){
         $(".Cursor_right").removeClass("hover_Cursor");
-        // alert("ikjo")
     });
   });
   
@@ -145,7 +129,6 @@ $(document).ready(function(){
     $(".left").mouseleave(function(){
         $(".Cursor_left").removeClass("hover_Cursor");
         $(".Cursor_right").removeClass("hover_Cursor");
-        // alert("ikjo")
     });
   });
 

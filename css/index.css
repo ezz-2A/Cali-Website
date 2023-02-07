@@ -7,7 +7,6 @@ body {
     box-sizing: border-box;
     transition: 1s;
   background: #000000;
-  /* height: 9000px; */
   font-family: MONTSERRAT;
   overflow-x: hidden;
   
@@ -64,7 +63,6 @@ nav{
   background-image: url(../img/logo.png );  
   background-size: 100%;
 
-  /* background-color: aqua; */
   margin-left: 10%;
   background-position-y: -30px;
 }
@@ -85,7 +83,6 @@ nav{
   right: 15%;
   width: 250px;
   height: 100%;
-  /* background-color: rgb(73, 123, 167); */
 }
 
 .an-vr2{
@@ -128,7 +125,6 @@ h1{
 .text{
   width: 100%;
   text-align: center;
-  /* background-color: rgb(89, 0, 255); */
   margin: auto;
   padding-top: 100px;
   font-size: 70px ;
@@ -136,21 +132,14 @@ h1{
 }
 
 .text2{
-  /* width: 80%; */
   padding: 0;
   overflow: hidden;
-  /* height: 10px; */
-  /* background-color: aqua; */
   margin: auto;
   
 }
 
 .vid{
   width: 80%;
-  /* min-width: none; */
-  /* background-image: url(../img/vid_1.gif); */
-  /* background-size: cover; */
-  /* height: 400px; */
   margin: auto;
   display: flex;
 }
@@ -159,7 +148,6 @@ h1{
   transition: 1s;
   width: 80px;
   height: 80px;
-  /* background-color: aliceblue; */
   margin: auto;
   align-items: center;
   border-radius: 50%;
@@ -168,7 +156,6 @@ h1{
   text-align: center;
   color: white;
   display: flex;
-  /* overflow: hidden; */
 }
 
 .play-a{
@@ -199,7 +186,6 @@ h1{
 .bo{
   width: 5px;
   height: 100px;
-  /* background-color: rgba(255, 255, 255, 0.514); */
   margin-left: 30px;
   float: left;
   -webkit-animation: animat 1s linear infinite;
@@ -231,7 +217,6 @@ h1{
 .to{
   width: 5px;
   height: 100px;
-  /* background-color: rgba(255, 255, 255, 0.514); */
   margin-left: 98%;
   float: left;
   -webkit-animation: animat 1s linear infinite;
@@ -246,12 +231,10 @@ h1{
 
 @keyframes animat2 {
   from {
-    /* height: 10px; */
     padding-top: 10px;
     bottom: 0;
   }
   to {
-    /* height: 200px; */
     padding-top: 200px;
     bottom: 200px;
 
@@ -259,13 +242,11 @@ h1{
 }
 @-webkit-keyframes animat2 {
   from {
-    /* height: 10px; */
     padding-top: 10px;
     bottom: 0;
 
   }
   to {
-    /* height: 200px; */
     padding-top: 200px;
     bottom: 200px;
 
@@ -273,16 +254,11 @@ h1{
 }
 
 
-.home{
-  /* background-color: aliceblue; */
-  /* margin-bottom: 250px; */
-}
 
 
 .About_us{
   width: 100%;
   min-height: 750px;
-  /* background-color: rgba(0, 255, 255, 0.384); */
   color: white;
   text-align: center;
   align-items: center;
@@ -304,7 +280,6 @@ h1{
 .counters{
   width: 50%;
   min-height: 100px;
-  /* background-color: #000000; */
   margin: auto;
   margin-top: 50px;
   position: relative;
@@ -315,10 +290,7 @@ h1{
   width: 250px;
   height: 250px;
   background-color: rgba(219, 219, 219, 0.027);
-  /* float: left; */
-  /* margin: auto; */
   position: relative;
-  /* left: 10px; */
   margin-bottom: 10px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
@@ -359,9 +331,6 @@ h1{
 
 .PRODUCTS{
   width: 100%;
-  /* background-color: aquamarine; */
-  
-  /* position: relative; */
 
 }
 
@@ -370,13 +339,10 @@ h1{
 .all{
   position: relative;
   width: 50%;
-  /* overflow: hidden; */
   transition: 1s;
-  /* margin-left: 5%; */
   top: 300px;
   left: 48%;
   display: flex;
-  /* height: 800px; */
   margin-bottom: 100px;
   border: #ffffff solid 2px;
 }
@@ -385,14 +351,10 @@ h1{
 .all-2{
   position: relative;
   width: 25%;
-  /* overflow: hidden; */
   transition: 2s;
   left: 2%;
   top: 355px;
-  /* display: flex; */
-  /* height: 800px; */
   margin-bottom: 100px;
-  /* padding-top: 200px; */
   cursor: pointer;
   border: none;
   background-color: #00000000;
@@ -403,67 +365,6 @@ h1{
 
 
 
-/* 
-.animat{
-  -webkit-animation: animat 2s linear ;
-    animation: animat 2s linear ;
-}
-
-@keyframes animat {
-  10% {
-    top: 355px;
-  }
-  20% {
-    top: 300px;
-  }
-  30% {
-    top: 355px;
-  }
-  50% {
-    top: 300px;
-
-  }
-  60%{
-    top: 355px;
-  }
-  80%{
-    top: 300px;
-  }
-  100%{
-    top: 355px;
-  }
-}
-
-.animat2{
-  -webkit-animation: animat2 2s linear ;
-  animation: animat2 2s linear ;
-}
-
-@keyframes animat2 {
-  10% {
-    top: 200px;
-  }
-  20% {
-    top: 170px;
-  }
-  30% {
-    top: 200px;
-  }
-  50% {
-    top: 170px;
-
-  }
-  60%{
-    top: 200px;
-  }
-  80%{
-    top: 170px;
-  }
-  100%{
-    top: 200px;
-  }
-} */
-
 
 
 .container {
@@ -473,21 +374,16 @@ h1{
   transition: 1s;
   margin: auto;
   align-items: center;
-  /* margin-left: 5%; */
-  /* top: 50px; */
-  /* float: left; */
+  
   transition: 2s;
 }
 
 .all-products{
   width: 100%;
-  /* height: 50%; */
-  /* background-color: blueviolet; */
   
 }
 
 .product-text{
-  /* width: 100%;background-color: rgb(47, 105, 105); */
   position: relative;
   top: 200px;
   text-align: center;
@@ -537,7 +433,6 @@ h1{
   width: 100%;
   height: 0;
   transition: .5s ease;
-  /* filter: blur(4px); */
   background-color: #00000068;
 
   
@@ -545,12 +440,10 @@ h1{
 
 .all-products:hover .overlay {
   height: 100%;
-  /* transform: rotate(30deg); */
 }
 
 .all-products:hover .container {
   width: 97%;
-  /* transform: rotate(30deg); */
 }
 
 
@@ -564,15 +457,7 @@ h1{
     color: white;
     font-size: 20px;
     position: absolute;
-    /* top: 50%; */
-    /* bottom: -0%; */
-    /* left: 50%; */
-    /* right: 3%; */
-    /* -webkit-transform: translate(-50%, -50%); */
-    /* -ms-transform: translate(-50%, -50%); */
-    /* transform: translate(-50%, -50%); */
     text-align: center;
-    /* display: flex; */
 }
 
 
@@ -580,17 +465,10 @@ h1{
 .text-PRODUCT2 {
   width: 100%;
   height: 100%;
-  /* background-color: antiquewhite; */
   color: white;
   font-size: 20px;
   position: absolute;
-  /* top: 50%; */
   bottom: -0%;
-  /* left: 50%; */
-  /* right: 3%; */
-  /* -webkit-transform: translate(-50%, -50%); */
-  /* -ms-transform: translate(-50%, -50%); */
-  /* transform: translate(-50%, -50%); */
   text-align: center;
   display: flex;
   
@@ -601,7 +479,6 @@ h1{
   width: 80%;
   margin: auto;
   text-align: center;
-  /* background-color: #000000; */
   align-items: center;
 }
 
@@ -617,7 +494,6 @@ h1{
 
 .teams{
   width: 100%;
-  /* background-color: rgb(28, 57, 82); */
   padding-top: 100px;
   margin-top: 100px;
 }
@@ -625,7 +501,6 @@ h1{
 
 .team{
   width: 50%;
-  /* background-color: rgb(0, 127, 238); */
   display: flex;
   height: 20rem;
   gap: 1rem;
@@ -635,7 +510,6 @@ h1{
 
 .team-s{
   width: 20%;
-  /* background-color: rgb(0, 127, 238); */
   display: flex;
   height: 20rem;
   gap: 1rem;
@@ -679,7 +553,6 @@ h1{
   background-color: #29292963;
   text-align: center;
   z-index: 99999999;
-  /* border-radius: 5%; */
   display: none;
   position: absolute;
   width: 100%;
@@ -701,7 +574,6 @@ h1{
 .client{
   width: 100%;
   min-height: 500px;
-  /* background-color: #292929; */
   margin-top: 100px;
   padding-top: 200px;
 }
@@ -756,7 +628,6 @@ h1{
   pointer-events: none;
 }
 .carousel img{
-  /* height: 340px; */
   object-fit: cover;
   user-select: none;
   margin-left: 14px;
@@ -770,8 +641,6 @@ h1{
 
 .map{
   width: 100%;
-  /* min-height: 200px; */
-  /* background-color: #343F4F; */
   margin-top: 100px;
   padding-top: 100px;
   padding-bottom: 200px;
@@ -793,9 +662,7 @@ h1{
   margin: auto;
   width: 219px;
   padding: 10px;
-  /* background-color: #621414; */
   margin-bottom: 50px;
-  /* margin-top: 100px; */
 }
 
 .div-map{
@@ -870,9 +737,7 @@ h1{
     margin-bottom: 10px;
   }
 
-  .div_img{
-    /* width: 250px; */
-    
+  .div_img{    
     margin: auto;
     position: relative;
     margin-bottom: 10px;
@@ -887,10 +752,6 @@ h1{
 }
 
 @media only screen and (max-width: 800px) {
-  /* .vid {
-    width: 500px;
-    height: 300px;
-  } */
 
   .team{
     width: 80%;
@@ -908,10 +769,6 @@ h1{
 }
 
 @media only screen and (max-width: 600px) {
-  /* .vid {
-    width: 400px;
-    height: 200px;
-  } */
 
   .team-s{
     width: 50%;
@@ -930,7 +787,6 @@ h1{
   height: 299px;
   overflow: hidden;
   transition: 1s;
-  /* margin-left: 1%; */
   position: relative;
   right: 0px;
 }
@@ -964,11 +820,8 @@ h1{
   width: 60%;
   overflow: hidden;
   transition: 1s;
-  /* margin-left: 5%; */
-  /* top: 50px; */
   left: 37%;
   display: flex;
-  /* height: 800px; */
   margin-bottom: 100px;
   padding-bottom: 100px;
 }
@@ -980,15 +833,10 @@ h1{
 @media only screen and (max-width: 728px){
   
   .all{
-    /* position: relative; */
     width: 90%;
     overflow: hidden;
     transition: 1s;
-    /* margin-left: 5%; */
-    /* top: 50px; */
     left: 0%;
-    /* display: flex; */
-    /* height: 800px; */
     margin-bottom: 100px;
     padding-bottom: 100px;
     margin: auto;

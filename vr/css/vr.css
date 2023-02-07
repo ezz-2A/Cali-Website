@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    /* height: 10000px; */
     background-color: black;
     
 }
@@ -48,8 +47,6 @@ img{
   align-items: center;
   transition: 1s;
   cursor: pointer;
-  /* position: absolute; */
-  /* top: 100%; */
 }
 
 .im{
@@ -58,9 +55,6 @@ img{
   z-index: 99;
   display: flex;
   align-items: center;
-  /* position: fixed; */
-  /* top: 20%; */
-  /* background-color: aqua; */
 }
 
 
@@ -110,8 +104,6 @@ nav{
   height: 100%;
   background-image: url(../img/logo.png );  
   background-size: 100%;
-
-  /* background-color: aqua; */
   margin-left: 10%;
   background-position-y: -30px;
 }
@@ -139,14 +131,12 @@ nav{
   right: 15%;
   width: 250px;
   height: 100%;
-  /* background-color: rgb(73, 123, 167); */
 }
 
 .an-vr2{
   position: absolute;
   width: 150px;
   height: 100%;
-  /* background-color: rgb(51, 255, 0); */
   text-align: center;
   overflow: hidden;
 
