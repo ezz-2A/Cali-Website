@@ -108,8 +108,9 @@ $(".image-1").click(function(){
         $(".container-1").removeClass("h");
         $(".container-2").addClass("h");
         $(".container-4").addClass("h");
-        $(".image-2").removeClass("h");
-        $(".image-1").addClass("h");
+        $(".container-3").addClass("h");
+        // $(".image-2").removeClass("h");
+        // $(".image-1").addClass("h");
         
 });
 
@@ -117,24 +118,30 @@ $(".image-1").click(function(){
 $(".image-2").click(function(){
         $(".container-3").removeClass("h");
         $(".container-1").addClass("h");
-        $(".image-3").removeClass("h");
-        $(".image-2").addClass("h");
+        $(".container-2").addClass("h");
+        $(".container-4").addClass("h");
+        // $(".image-3").removeClass("h");
+        // $(".image-2").addClass("h");
 
 });
 
 $(".image-3").click(function(){
         $(".container-2").removeClass("h");
         $(".container-3").addClass("h");
-        $(".image-4").removeClass("h");
-        $(".image-3").addClass("h");
+        $(".container-4").addClass("h");
+        $(".container-1").addClass("h");
+        // $(".image-4").removeClass("h");
+        // $(".image-3").addClass("h");
 
 });
 
 $(".image-4").click(function(){
         $(".container-4").removeClass("h");
         $(".container-2").addClass("h");
-        $(".image-1").removeClass("h");
-        $(".image-4").addClass("h");
+        $(".container-3").addClass("h");
+        $(".container-1").addClass("h");
+        // $(".image-1").removeClass("h");
+        // $(".image-4").addClass("h");
 
 });
 
