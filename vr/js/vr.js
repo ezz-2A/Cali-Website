@@ -25,7 +25,7 @@ $("img").click(function(){
 let progress;
 
 setInterval(function(){
-  progress = ( vid.currentTime / 10 * 100 ).toFixed(2)
+  progress = ( vid.currentTime / 4 * 100 ).toFixed(2)
   if(progress > 100){
     $("#container").fadeOut();
     $(".black").fadeOut();

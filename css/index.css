@@ -698,11 +698,12 @@ h1{
 
 
 .footer{
-  background-color: #484848;
+  background-color: #83838360;
   width: 100%;
-  min-height: 200px;
+  min-height: 300px;
   display: flex;
   bottom: 0;
+  
 }
 
 .footer-content{

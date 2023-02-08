@@ -162,7 +162,7 @@ nav{
 
 ul{
 display: grid;
-grid-template-columns: repeat(9, 100vw);
+grid-template-columns: repeat(3, 100vw);
   cursor: grab;
   overflow-x: scroll;
   white-space: nowrap;
