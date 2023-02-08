@@ -712,6 +712,70 @@ h1{
 }
 
 
+.goals{
+  width: 100%;
+  /* background-color: #4b3679; */
+  text-align: center;
+  margin-top: 100px;
+}
+
+.goals img{
+  width: 20%;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.goals img:hover{
+  width: 22%;
+}
+
+
+.vision{
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.section{
+  width: 100%;
+  text-align: center;
+  /* background-color: #343F4F; */
+}
+
+.img-b{
+  width: 80%;
+}
+
+
+.img-s{
+  width: 5%;
+  cursor: pointer;
+}
+
+
+
+
+.img-s-1{
+  transform: translateX(699%) translateY(-540%);
+  
+}
+.img-s-2{
+  transform: translateX(1120%) translateY(-540%);  
+}
+
+.img-s-3{
+  transform: translateX(-320%) translateY(-200%);  
+}
+
+.img-s-4{
+  transform: translateX(-420%) translateY(-300%);  
+}
+
+.img-s-5{
+  transform: translateX(-0%) translateY(-300%);  
+}
+
 /* ---------------------media------------ */
 
 
