@@ -88,7 +88,7 @@ body{
   padding-top: 100px;
   position: relative;
   top: 150px;
-  text-align: center;
+  /* text-align: center; */
 
 }
 
@@ -111,7 +111,34 @@ body{
 }
 
 
+.contenr{
+  width: 80%;
+  min-height: 100px;
+  /* background-color: aquamarine; */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
 
+
+.content{
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+
+
+
+.content p{
+  /* margin-top: 100px; */
+}
+
+
+.content img{
+  width: 100%;
+}
 
 
 @media screen and (max-width: 950px) {
