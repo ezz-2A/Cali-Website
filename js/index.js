@@ -268,3 +268,41 @@ $(".Saudi-btn").click(function(){
         $(".Saudi").fadeIn(300);
         
 });
+
+
+
+
+$(document).ready(function(){
+        $(".img-goal-1").hover(function(){
+          $(".text-goal-1").addClass("goal-h");
+        });
+
+        $(".img-goal-1").mouseleave(function(){
+                $(".text-goal-1").removeClass("goal-h");
+        });
+
+
+        $(".img-goal-2").hover(function(){
+                $(".text-goal-2").addClass("goal-h");
+              });
+      
+              $(".img-goal-2").mouseleave(function(){
+                      $(".text-goal-2").removeClass("goal-h");
+         });
+
+         $(".img-goal-3").hover(function(){
+                $(".text-goal-3").addClass("goal-h");
+              });
+      
+              $(".img-goal-3").mouseleave(function(){
+                      $(".text-goal-3").removeClass("goal-h");
+         });
+
+         $(".img-goal-4").hover(function(){
+                $(".text-goal-4").addClass("goal-h");
+              });
+      
+              $(".img-goal-4").mouseleave(function(){
+                      $(".text-goal-4").removeClass("goal-h");
+         });
+});
