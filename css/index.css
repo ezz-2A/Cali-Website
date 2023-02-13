@@ -789,6 +789,8 @@ h1{
 }
 
 
+
+
 .img-s{
   width: 5%;
   cursor: pointer;
@@ -815,6 +817,40 @@ h1{
 
 .img-s-5{
   transform: translateX(-0%) translateY(-300%);  
+}
+
+
+
+.text-box{
+  width: 15%;
+  height: 100px;
+  /* background-color: #343F4F; */
+  color: white;
+}
+
+
+.text-box-1{
+  transform: translateX(130%) translateY(250%);  
+}
+
+
+.text-box-2{
+  transform: translateX(300%) translateY(170%);  
+}
+
+
+.text-box-3{
+  transform: translateX(470%) translateY(70%);  
+}
+
+
+.text-box-4{
+  transform: translateX(220%) translateY(-200%);  
+}
+
+
+.text-box-5{
+  transform: translateX(400%) translateY(-320%);  
 }
 
 /* ---------------------media------------ */
