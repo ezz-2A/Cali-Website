@@ -7,7 +7,7 @@ body {
     box-sizing: border-box;
     transition: 1s;
   background: #000000;
-  font-family: MONTSERRAT;
+  font-family: Myriad Pro;
   overflow-x: hidden;
   
 }
@@ -104,12 +104,14 @@ nav{
 }
 
 .btn-nav{
-  width: 100%;
+  width: 60%;
   display: flex;
   color: white;
   margin: auto;
   list-style-type: none;
-  /* background-color: #da0000; */
+  /* background-color: #da0000;
+   */
+  margin: auto;
 }
 
 
@@ -128,6 +130,7 @@ nav{
   font-size: 50px;
   cursor: pointer;
   display: none;
+  z-index: 999999999999;
 }
 
 .loogo1{
@@ -997,15 +1000,24 @@ h1{
 }
 
 
-.h-nav{
-  display: none;
-}
-
-.menu{
-  display: block;
-}
 
 }
+
+
+
+@media only screen and (max-width: 1250px){
+  
+  
+  
+  .h-nav{
+    display: none;
+  }
+  
+  .menu{
+    display: block;
+  }
+  
+  }
 
 
 @media only screen and (max-width: 728px){
@@ -1027,4 +1039,10 @@ h1{
   @font-face {
     font-family: Neuropol;
     src: url(../neuropol.ttf);
+  }
+
+
+  @font-face {
+    font-family: Myriad Pro;
+    src: url(../Myriad\ Pro\ Bold\ SemiExtended.ttf);                   
   }
