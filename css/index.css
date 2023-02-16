@@ -885,6 +885,11 @@ h1{
   transform: translateX(400%) translateY(-320%);  
 }
 
+.map2{
+  width:100%;
+}
+
+
 /* ---------------------media------------ */
 
 
@@ -892,6 +897,16 @@ h1{
   .carousel img{
     width: calc(100% / 2);
   }
+  .link{
+    display: none;
+  }
+  .map2{
+    width: 100%;
+  }
+  
+.div-map{
+  width: 80%;
+}
 }
 
 @media screen and (max-width: 550px) {
@@ -954,7 +969,7 @@ h1{
   width: 98%;
 }
 .text{
-  font-size: 40px;
+  font-size: 20px;
   
 }
 
@@ -1032,7 +1047,14 @@ h1{
   
   
 }
-
+@media only screen and (max-width: 400px) {
+  .product-text{
+    font-size: 30px;
+  }
+  .loogo{
+    margin-left: -7%;
+  }
+}
 
 
 

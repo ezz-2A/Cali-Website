@@ -9,6 +9,11 @@ body{
   font-family: Myriad Pro;
 }
 
+*{
+  margin: auto;
+  text-align: center;
+}
+
 .background{
     z-index: -100;
     width: 100%;
@@ -119,6 +124,7 @@ body{
   display: flex;
   align-items: center;
   margin-top: 50px;
+  flex-direction: row;
 }
 
 
@@ -147,6 +153,20 @@ body{
   }
 }
 
+@media screen and (max-width:857px) {
+  .contenr{
+    flex-direction: column;
+  }
+  .content{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:857px) {
+  .content{
+    width: 100%;
+  }
+}
 
 
 @media screen and (max-width: 750px) {
