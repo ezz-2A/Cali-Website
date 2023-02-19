@@ -1070,6 +1070,22 @@ h1{
 
 
 
+@media only screen and (min-width: 1500px) {
+  .team {
+    width: 600px;
+  }
+  .team-s{
+    width: 220px;
+  }
+  .goals-scren{
+    width: 1800px;
+    margin: auto;
+  }
+
+}
+
+
+
 
 /* -----------scrllBar----- */
 
