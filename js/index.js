@@ -167,20 +167,23 @@ $(".all-2").hover(function(){
 
 const carousel = document.querySelector(".carousel"),
 firstImg = carousel.querySelectorAll("img")[0],
-arrowIcons = document.querySelectorAll(".wrapper i");
+arrowIcons = document.querySelectorAll(".next-client");
 
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
 
 const showHideIcons = () => {
-    let scrollWidth = carousel.scrollWidth - carousel.clientWidth;
-    arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
-    arrowIcons[1].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
-}
+        let scrollWidth = carousel.scrollWidth - carousel.clientWidth;
+        // arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
+        if(carousel.scrollLeft == scrollWidth ){
+           carousel.scrollLeft = 0;
+        }
+    }
 
 arrowIcons.forEach(icon => {
     icon.addEventListener("click", () => {
         let firstImgWidth = firstImg.clientWidth + 14; 
         carousel.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth;
+        // carousel.scrollLeft = 0;
         setTimeout(() => showHideIcons(), 60);
     });
 });
@@ -234,7 +237,7 @@ carousel.addEventListener("touchend", dragStop);
 
 
 
-$("button").click(function(){
+$(".map button").click(function(){
         $("button").removeClass("btn-activ");
 
         $(this).addClass("btn-activ");
