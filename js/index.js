@@ -312,3 +312,15 @@ $(document).ready(function(){
                       $(".text-goal-4").removeClass("goal-h");
          });
 });
+
+
+
+
+
+
+
+
+
+
+
+

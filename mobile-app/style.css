@@ -340,4 +340,39 @@ li{
 }
 
 
+iframe{
+  height:290px;
+}
 
+.text-s{
+  display: none;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .text-s{
+    display: block;
+  }
+  .text-l{
+    display: none;
+  }
+}
+
+  @media screen and (max-width: 500px) {
+    .li-w-s{
+      width: 90%;
+    }
+
+    
+    iframe{
+      height:150px;
+    }
+
+    .text-s{
+      display: block;
+    }
+    .text-l{
+      display: none;
+    }
+}

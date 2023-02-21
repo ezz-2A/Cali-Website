@@ -82,10 +82,10 @@ nav{
 }
 
 .vr{
-  width: 100px;
-  height: 100%;
+  width: 87px;
+  height: 96%;
   background-image: url(../img/vr.png );  
-  background-size: cover;
+  background-size: 88px;
   position: absolute;
 
   right: 0;
@@ -769,7 +769,7 @@ h1{
 }
 
 .goals img{
-  width: 14%;
+  width: 10%;
   /* cursor: pointer; */
   transition: 1s;
   padding: 20px;
@@ -795,7 +795,7 @@ h1{
 
 .goal-h{
   transition: 1s;
-  height: 100px;
+  height: 130px;
 }
 
 
@@ -917,6 +917,14 @@ h1{
   border: white solid 3px;
   color: white;
 }
+
+
+
+
+
+
+
+
 
 /* ---------------------media------------ */
 
@@ -1109,6 +1117,14 @@ h1{
   .goals-scren{
     width: 1800px;
     margin: auto;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  .goals img{
+    width: 70px;
+    /* margin: auto; */
   }
 
 }
